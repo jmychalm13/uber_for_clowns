@@ -1,4 +1,4 @@
-# puts "Seeding started..."
+puts "Seeding started..."
 
 # Clown.create(
 #   name: "Happy",
@@ -16,4 +16,19 @@
 #   name: "Bobbo",
 # )
 
-# puts "Seeding complete."
+User.create(
+  name: "John",
+  email: "john@test.com",
+)
+
+User.create(
+  name: "Pat",
+  email: "pat@test.com",
+)
+
+User.create(
+  name: "Jane",
+  email: "jane@test.com",
+)
+
+puts "Seeding complete."
