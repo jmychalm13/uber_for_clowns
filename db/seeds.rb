@@ -1,19 +1,19 @@
-puts "Seeding started..."
+# puts "Seeding started..."
 
-Clown.create(
-  name: "Happy",
-)
+# Clown.create(
+#   name: "Happy",
+# )
 
-Clown.create(
-  name: "Sad",
-)
+# Clown.create(
+#   name: "Sad",
+# )
 
-Clown.create(
-  name: "Boxo",
-)
+# Clown.create(
+#   name: "Boxo",
+# )
 
-Clown.create(
-  name: "Bobbo",
-)
+# Clown.create(
+#   name: "Bobbo",
+# )
 
-puts "Seeding complete."
+# puts "Seeding complete."
